@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title> Project_News </title>
+         <!-- links to my css, css for social media icons and css for icons-->
+        <link rel="stylesheet" href="Project_News.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="Project_News_Resources/Nznews_official_Icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+
+    <body>
+         <!--header-->
+        <div class="header">
+        <div class="boxfix" style="border: 1px solid; border-radius: 10px; padding-right: 100px;">
+         <i class="material-icons" id="i">search</i>
+          <input type="text" placeholder="Search" id="search">
+          <img title="NZ News"  src="Project_News_Resources/Nznews_official_logo1.PNG" id="img-hide" >
+          <img title="NZ News" src="Project_News_Resources/Nznews_official_logo.gif" id="img-change">
+             <h1>NewZealand News</h1>
+         </div>    
+        <!--header2-->
+          <div>
+            <ul class="header2">
+              <br>
+  
+              <li class="li2" style="float: left;" title="Today's Date"> Date: <span id="datetime"></span></li>
+              <li class="li2" style="padding-right: 120px;"> Good Morning </li>
+              <li class="li2" style="float: right;" title="Today's Weather"> Weather </li>
+              <li class="li2" style="  display: inline; float: right; padding-right: 10px;" title="Today's Weather">
+                <i class="material-icons">cloud</i></li>
+          </ul>
+         <!--to update Date-->
+          <script>
+          var dt = new Date();
+          document.getElementById("datetime").innerHTML = dt.toLocaleDateString(); 
+          </script>
+          </div>
+        </div>
+      
+       <!--Navigation-->
+        <div class="nav">
+          
+            <ul class="topnav" style="float: left;">
+                <li class="li"  title="Home">
+                 <a href="http://127.0.0.1:5500/Project_News.html" id="active"><i class="material-icons">home</i>Home</a></li>
+                <li class="li" title="About Us"> <a href="#aboutus.asp">About Us</a></li>
+                <li class="li"  title="Contact Us"> <a href="#Contactus.asp">Contact Us</a></li>
+            </ul>
+         
+          </div>
+        
+        <div class="row">
+          <!--Column 1-->
+          <div class="column">
+            
+          <h2>Sports</h2>
+          <img src="Project_News_Resources/Sports_news.jpg">
+          <h3>Tokyo Olympics: Campbell Stewart wins
+            <br> silver medal in men's omnium</h3>
+          <p>New Zealand won two Olympic silver medals in a memorable<br>
+             40 minutes on Thursday after a superb ride from Stewart<br>
+             in the men’s omnium to close out night two on the boards in Tokyo.</p>
+           
+           <h4>Technology</h4> <h4>Travel</h4>
+          <div id="img"><img src="Project_News_Resources/Tech_news.jpg">
+             <img src="Project_News_Resources/Travel_news.jpg"> </div>
+
+          <div class="boxfix">
+          <div class="box" > <h5 style="border-right: 1px solid grey;">
+            Tech Tinder: Meet the IT companies
+             swiping the skill shortage</h5>
+            <p>
+              A Tinder for the tech sector to match young Māori and 
+              Pasifika with future employers.
+              A data analytics bootcamp that leads to "life-changing" 
+              tech jobs in Government.
+              A five-year journey from a South Auckland high school to
+               be first in line for work at IBM and the Warehouse.
+            </p>
+          </div>
+
+          <div class="box"><h5>Air New Zealand working to 
+            return Kiwis during MIQ clemency window</h5>
+            <p>
+              Air New Zealand is working closely with MIQ to return
+               Kiwis from Australia during the week-long clemency
+                period, says CEO Greg Foran.
+             There is currently a seven-day window where eligible
+              returnees - except those coming from New South Wales
+               - will not be required to enter MIQ.
+            </p>
+          </div>
+
+          </div>
+          <h4>Sports</h4> <h4 style="padding: 40px;">Travel</h4>
+          <div id="img"><img src="Project_News_Resources/sports_news2.jpg">
+             <img src="Project_News_Resources/Travel_news2.jpg">
+           </div>
+
+          <div class="boxfix">
+            <div class="box" > <h5 style="border-right: 1px solid grey;">
+              Tokyo Olympics 2020 updates (August 6):
+               New Zealand athletes and events in action.</h5>
+              <p>
+                Lisa Carrington will have one more shot at adding
+                 to her historic tally at the Games so far in the K4 500m heats.<br>
+                She'll be joined by fellow gold medal winner in the K2 500m
+                 Caitlin Regal, along with Teneale Hatton and Alicia Hoskin.
+              </p>
+            </div>
+
+            <div class="box"><h5>Scott Base Hotel:
+               Is Antarctica New Zealand building a luxury polar lodge?</h5>
+              <p>
+                As New Zealand prepares to build its new Scott Base in Antarctica,
+                 you'd be forgiven for mistaking it for a high-end polar lodge.<br>
+                 The dramatic, wing-like structures to be built on Ross Island
+                  have been dubbed "New Zealand's coolest redevelopment"
+                   by the project's New Zealand architects, Jasmax.
+              </p>
+            </div>
+            </div>
+
+            <h4 >Technology</h4>
+            <div>
+              <img src="Project_News_Resources/Tech_news2.jpg">
+              <h3>Rocket Lab reveals value of Nasa Moon mission<br>
+                 contract, more details</h3>
+                <p>Rocket Lab has revealed the value of its Moon mission for Nasa<br>
+                   - US$9.95 million ($14m) - and confirmed the flight will take place<br>
+                     before the end of this year.<br><br>
+                  The Kiwi-American company does not usually put a value on<br>
+                   its special projects, but is now looking to showcase itself<br>
+                    ahead of its $US4.1 billion Nasdaq listing,<br>
+                     expected before the end of September.<br>
+                </p>
+  
+            </div>
+          </div>
+
+          <!--Column 2-->
+          <div class="column">
+            <h2>Business</h2>
+            <img src="Project_News_Resources/bussiness_news1.jpg">
+            <h3>Unemployment plunges to 4 per cent -
+              <br> biggest quarterly fall in 35 years</h3>
+            <p>The number of people unemployed in New Zealand has been<br>
+               dropping by more than 1000 a week in recent months,<br>
+                with an extremely tight labour market
+                pushing employers <br> to up pay to keep staff.<br><br>
+                </p>
+
+             <h4>Business</h4>
+             <div class="boxfix">
+            <div class="box" id="img"><img src="Project_News_Resources/bussiness_news2.jpg"> </div>
+            <div class="box" style="padding-left: 10px; border-bottom: 1px solid grey;">
+              <h5 style="border-bottom: 1px solid grey;">
+              Sustainable Business: Path to a climate-resilient future</h5>
+              <p>In its recent advice to the Government,
+                 the Climate Change Commission (the Commission) said it best:
+                "Ināia tonu nei — the time is now."<br>
+                The Network for Greening the Financial System (NGFS) made
+                 a similar call earlier this year: "The urgency to act
+                  is greater than ever: climate risks no longer lie
+                   beyond the horizon, they are already materializing.
+                    The time to take action is now."</p>
+             </div>
+           </div>
+
+            <h4 >Middle East</h4>
+
+            <div id="img">
+              <img src="Project_News_Resources/Middle_east_news1.jpg" style="float: left;">
+            </div>
+             <div class="box" style="padding-left: 10px; border-bottom: 1px solid grey;">
+               <h5 style="border-bottom: 1px solid grey;">Flooding hits Iran</h5>
+              <p>An unusual area of low pressure brought floods
+                 to part of Iran and there's more rain in the
+                  forecast for parts of the Middle East. 
+                  Chris Fawkes has details.
+                  <br><br><br><br><br><br><br><br><br><br>
+                </p>
+            </div>
+
+            
+            <h4>Middle East</h4>
+          <div>
+            <img src="Project_News_Resources/Middle_east_news2.jpg">
+            <h3>Football: All Whites set to face 2022 FIFA World <br>
+              Cup qualifying tournament in Middle East, <br>
+              after bid to stage event here turned down</h3>
+              <p>The All Whites face the unprecedented prospect
+                 of a FIFA World Cup <br>
+                 qualifying tournament in
+                 the Middle East next January.<br><br>
+                 The event, to decide Oceania's top qualifier,
+                 could stretch across almost <br>
+                 three weeks.
+              </p>
+
+          </div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br>
+        </div>
+
+          <!--Column 3-->
+          <div class="column" style="padding-right: 27px;">
+            <h2>Advertisement(s): </h2>
+          <div>
+            <img src="Project_News_Resources/Advertisement5.jpg" style=" height:680px; margin: auto; width: 430px;
+            padding-left: 40px;">
+            <br><br>
+            <img src="Project_News_Resources/Advertisement6.jpg" style="height: 345px;">
+            <br><br>
+            <img src="Project_News_Resources/Advertisement4.jpg"  style="height: 380px;">
+          </div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br><br>
+          <div style="height: 13.7px;"> </div>
+          </div>
+         
+        </div>
+
+         <!--footer-->
+        <div class="footer">
+            <ul>
+              <li class="li3" ><a href="#nznews.FB" class="fa fa-facebook" style="font-size: 30px;">
+              </a><a href="#nznews.FB" >@NZ.News/FB </a></li>
+              <li class="li3"><a href="#nznews.IG" class="fa fa-instagram" style="font-size: 30px;">
+              </a><a href="#nznews.IG" >@NZ.News/IG </a></li>
+              <li class="li3"><a href="#nznews.LN" class="fa fa-linkedin" style="font-size: 30px;">
+              </a><a href="#nznews.LN" >@NZ.News/LN </a></li>
+              <li class="li3"><a href="#nznews.TW" class="fa fa-twitter" style="font-size: 30px;">
+              </a><a href="#nznews.TW" >@NZ.News/TW </a></li>
+          </ul>
+        </div>
+        
+    </body>
+</html>   
